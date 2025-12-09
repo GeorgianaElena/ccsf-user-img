@@ -34,4 +34,4 @@ jobs:
         DOCKER_PASSWORD: ${{ secrets.QUAY_PASSWORD }}
         DOCKER_REGISTRY: "quay.io"
         IMAGE_NAME: "georgianaelena/ccsf-img"
-        #FORCE_REPO2DOCKER_VERSION: jupyter-repo2docker==2025.08.0
+        FORCE_REPO2DOCKER_VERSION: jupyter-repo2docker==2025.08.0
