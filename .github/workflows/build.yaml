@@ -33,5 +33,5 @@ jobs:
         DOCKER_USERNAME: ${{ secrets.QUAY_USERNAME }}
         DOCKER_PASSWORD: ${{ secrets.QUAY_PASSWORD }}
         DOCKER_REGISTRY: "quay.io"
-        IMAGE_NAME: "georgianaelena/test-cloudbank-img"
-        FORCE_REPO2DOCKER_VERSION: jupyter-repo2docker==2025.08.0
+        IMAGE_NAME: "georgianaelena/ccsf-img"
+        #FORCE_REPO2DOCKER_VERSION: jupyter-repo2docker==2025.08.0
